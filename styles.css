@@ -1,0 +1,81 @@
+body {
+    background-color: lightgrey;
+}
+
+.grid-container {
+    display: grid;
+    box-sizing: border-box;
+    margin: 50px auto;
+    padding: 0px;
+    width: 1000px;
+    height: 700px;
+    overflow: hidden;
+    background-color: white;
+}
+.grid-item {
+    color: white;
+    border: 0.1px solid grey;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#grid {
+    border: 5px solid black;
+    box-sizing: border-box; /* Include border in the element's total width/height */
+    padding: 0;
+    margin: auto;
+    width: 710px; /* Should match the width of .grid-container */
+    height: 710px; /* Should match the height of .grid-container */
+    display: flex; /* Use flex to make sure container takes full width and height */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#heading {
+    text-align: center;
+    font-size: 30px;
+    color: darkgoldenrod;
+}
+
+#infobox {
+    border: 10px solid black;
+    border-radius: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    background-color: lightblue;
+    color: darkgoldenrod;
+}
+
+#fade {
+    margin-right: 200px;
+}
+
+#options{
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#information{
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    margin: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+#etch #heading {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
